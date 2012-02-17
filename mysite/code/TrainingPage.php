@@ -13,6 +13,7 @@ class TrainingPage extends Page {
 		$fields->renameField('Title', 'Nazwa szkolenia');
 		$fields->renameField('Content', 'Opis szkolenia');
 		$fields->addFieldToTab('Root.Content.Main', new NumericField('Price', 'Cena'));
+                $fields->addFieldToTab('Root.Content.Image', new ImageField('Photo'));
 		return $fields;	
 	}
 }
