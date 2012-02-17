@@ -8,8 +8,8 @@ $databaseConfig = array(
 	"type" => 'MySQLDatabase',
 	"server" => 'localhost',
 	"username" => 'root',
-	"password" => '',
-	"database" => 'silver_strip',
+	"password" => 'root',
+	"database" => 'mainbrain',
 	"path" => '',
 );
 
@@ -24,3 +24,6 @@ i18n::set_locale('pl_PL');
 
 // enable nested URLs for this site (e.g. page/sub-page/)
 SiteTree::enable_nested_urls();
+
+// change currency to PLN
+Currency::setCurrencySymbol('PLN'); //change this to the relevant symbol 

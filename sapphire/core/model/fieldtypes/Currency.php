@@ -17,7 +17,7 @@
  * @subpackage model
  */
 class Currency extends Decimal {
-	protected static $currencySymbol = '$';
+	protected static $currencySymbol = 'PLN';
 	
 	/**
 	 * Returns the number as a currency, eg “$1,000.00”.

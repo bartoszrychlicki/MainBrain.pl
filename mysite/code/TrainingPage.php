@@ -1,10 +1,10 @@
 <?php
 class TrainingPage extends Page {
 	static $db = array(
-		
+		'Price' => 'Decimal'
 		);
 	static $has_one = array(
-		'Photo'			=> 'Image',
+		'Photo'	=> 'Image',
 		);
 	
 	public function getCMSFields()
@@ -12,10 +12,8 @@ class TrainingPage extends Page {
 		$fields = parent::getCMSFields();
 		$fields->renameField('Title', 'Nazwa szkolenia');
 		$fields->renameField('Content', 'Opis szkolenia');
-		
-		
-		return $fields;
-		
+		$fields->addFieldToTab('Root.Content.Main', new NumericField('Price', 'Cena'));
+		return $fields;	
 	}
 }
 /**
