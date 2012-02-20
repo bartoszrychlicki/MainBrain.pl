@@ -1,11 +1,13 @@
 <?php
-class TrainerPage extends Page {
+class TrenerPage extends Page {
 	static $db = array(
 		);
 	static $has_one = array(
 		'Photo'			=> 'Image'
 		);
-	
+	static $belongs_many_many = array (
+            'WorkshopDateTime' => 'WorkshopDateTime'
+        );
 	public function getCMSFields()
 	{
 		$fields = parent::getCMSFields();
@@ -21,7 +23,7 @@ class TrainerPage extends Page {
 /**
 * 
 */
-class TrainerPage_Controller extends Page_Controller
+class TrenerPage_Controller extends Page_Controller
 {
 	
 }

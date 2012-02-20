@@ -11,6 +11,8 @@
 		<h2>$Title</h2>
                 $Photo.SetWidth(250)
 		$Content
+                Cena za całe szkolenie: $Price PLN
+                <p><a href="/harmonogram-szkolen/">Sprawdź dostępne terminy szkoleń</a></p>
 		$Form
 		$PageComments
 	<% if Menu(2) %>

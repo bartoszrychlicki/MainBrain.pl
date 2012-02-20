@@ -1,5 +1,5 @@
 <?php
-class TrainingPage extends Page {
+class SzkoleniePage extends Page {
 	static $db = array(
 		'Price' => 'Decimal'
 		);
@@ -20,7 +20,7 @@ class TrainingPage extends Page {
 /**
 * 
 */
-class TrainingPage_Controller extends Page_Controller
+class SzkoleniePage_Controller extends Page_Controller
 {
 	
 }

@@ -2,16 +2,16 @@
 /**
 * 
 */
-class TrainerHolder extends Page
+class TrenerHolder extends Page
 {
 	static $db = array();
 	static $has_one = array();
-	static $allowed_children = array ('TrainerPage');
+	static $allowed_children = array ('TrenerPage');
 }
 /**
 * 
 */
-class TrainerHolder_Controller extends Page_Controller
+class TrenerHolder_Controller extends Page_Controller
 {
 
 }
