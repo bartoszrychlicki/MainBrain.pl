@@ -89,6 +89,7 @@ class CalendarUtil
 	
 	public static function localize($start, $end, $key)
 	{
+                
 		global $customDateTemplates;
 		global $lang;
 		if(is_array($customDateTemplates) && isset($customDateTemplates[$key]))

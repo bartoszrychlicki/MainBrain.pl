@@ -34,7 +34,7 @@
 					</dl>
 				</div>
 				<% end_if %>
-				<h3 class="summary">$Title</h3>
+				<h3 class="summary">$Title</h3> d
 				
 				<% control CurrentDate %>
 				<h4><a href="$ICSLink" title="Add to Calendar">$_Dates</a></h4>

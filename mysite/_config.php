@@ -27,3 +27,4 @@ SiteTree::enable_nested_urls();
 
 // change currency to PLN
 Currency::setCurrencySymbol('PLN'); //change this to the relevant symbol 
+Director::set_environment_type("test");

@@ -5,9 +5,7 @@ class TrenerPage extends Page {
 	static $has_one = array(
 		'Photo'			=> 'Image'
 		);
-	static $belongs_many_many = array (
-            'WorkshopDateTime' => 'WorkshopDateTime'
-        );
+
 	public function getCMSFields()
 	{
 		$fields = parent::getCMSFields();

@@ -56,9 +56,9 @@ class EventRegistration extends DataObject {
 			'Tickets',
 			'EventTicket',
 			array(
-				'Title'        => 'Ticket Title',
-				'PriceSummary' => 'Price',
-				'Quantity'     => 'Quantity'
+				'Title'        => 'Nazwa biletu',
+				'PriceSummary' => 'Cena',
+				'Quantity'     => 'Ilość'
 			)));
 		$tickets->setCustomSourceItems($this->Tickets());
 
